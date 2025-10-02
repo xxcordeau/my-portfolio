@@ -203,9 +203,11 @@ export const HomePage = () => {
       <HeroSection>
         <HeroContent>
           <HeroTitle>
-            {t.home.hero.greeting}
+             {t.home.hero.greeting}
+             <br />
+            허정연의 <GradientText>Portfolio</GradientText>입니다.
             <br />
-            저는 <GradientText>{t.home.hero.role}</GradientText>입니다.
+            {/* 저는 <GradientText>{t.home.hero.role}</GradientText> 입니다. */}
           </HeroTitle>
           <HeroDescription>
             {t.home.hero.description}
